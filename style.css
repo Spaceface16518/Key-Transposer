@@ -1,9 +1,9 @@
+/*
 @font-face {
   font-family: 'Alpha Music Man';
   src: url('./fonts/AlphaMusicMan.tff');
 }
 
-/*
 * {
   box-sizing: border-box
 }
@@ -14,7 +14,7 @@ body {
   background-color: rgb(84, 228, 168);
   text-align: center;
 }
-*/
+
 
 #result {
   color: rgb(4, 53, 95);
@@ -30,3 +30,5 @@ h3 {
   font-family: 'Alpha Music Man', 'Trebuchet MS', Arial, sans-serif;
   font-size: 120%
 }
+
+*/

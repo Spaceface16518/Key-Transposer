@@ -1,4 +1,6 @@
-function setDynamicStyle() {
+const DynamicStyle = {};
+
+DynamicStyle.setDynamicStyle = function setDynamicStyle() {
   $("*").css({
     "box-sizing": "border-box"
   });
@@ -25,3 +27,5 @@ function setDynamicStyle() {
     "font-size": "120%"
   })
 }
+
+module.exports = DynamicStyle
