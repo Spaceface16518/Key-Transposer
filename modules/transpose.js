@@ -75,6 +75,8 @@ Transpose.setKeyOffset = function (key) {
       console.log('invalid key ' + key);
   }
   return keyOffset;
+  console.log("Key offset returned: " + keyOffset);
+  
 }
 
 Transpose.convertNoteToNumber = function (note) {
@@ -120,6 +122,8 @@ Transpose.convertNoteToNumber = function (note) {
       console.log('error transposing note into a numerical value');
   }
   return numericalNoteValue;
+  console.log("Note turned to number: " + numericalNoteValue);
+  
 }
 
 Transpose.convertNumberToNote = function (number) {
