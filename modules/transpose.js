@@ -129,4 +129,9 @@ Transpose.convertNoteToNumber = function (note) {
 Transpose.convertNumberToNote = function (number) {
   // TODO: add this function
 }
+
+Transpose.testConnection = function () {
+  console.log("Transpose: Connection confirmed");
+}
+
 module.exports = Transpose;

@@ -21,3 +21,11 @@ $("#submit").clicked(function () {
   console.log(newNote);
   Write.write(newNote);
 });
+
+function testConnection() {
+  Receive.testConnection();
+  Write.testConnection();
+  Transpose.testConnection();
+  let text = "Connection test completed";
+  console.log(text);
+}
