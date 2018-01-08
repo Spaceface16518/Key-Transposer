@@ -1,7 +1,4 @@
-
 # Key Transposer
-
-![Welcome to Key Transposer](https://cdn.pixabay.com/photo/2017/01/09/20/11/music-1967480_960_720.png)
 
 _Transpose musical notes into different keys_
 
