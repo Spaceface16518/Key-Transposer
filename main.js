@@ -1,5 +1,7 @@
 import * as DynamicStyle from "./modules/dynamic-style.jquery.js";
 import * as Transpose from "./modules/transpose.js";
+import * as Write from "./modules/write.js";
+import * as Receive from "./modules/receive.js"
 
 // onload functions are wrapped in a document ready jquery statement
 $(document).ready(function () {
