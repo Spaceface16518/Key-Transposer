@@ -6,4 +6,4 @@ Receive.receiveNote = function () {
 
 Receive.receiveKey = function () {
   // TODO: Use JQuery to get the value of the key dropdown
-}
+}module.exports = Receive;
