@@ -26,6 +26,7 @@ DynamicStyle.setDynamicStyle = function () {
     "font-family": "'Trebuchet MS', Arial, sans-serif",
     "font-size": "120%"
   })
+  console.log("Dynamic style set");
 }
 
 module.exports = DynamicStyle
