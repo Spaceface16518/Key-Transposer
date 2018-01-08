@@ -1,6 +1,6 @@
 const DynamicStyle = {};
 
-DynamicStyle.setDynamicStyle = function setDynamicStyle() {
+DynamicStyle.setDynamicStyle = function () {
   $("*").css({
     "box-sizing": "border-box"
   });
