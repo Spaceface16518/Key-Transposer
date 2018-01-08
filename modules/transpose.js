@@ -1,4 +1,4 @@
-var Transpose = {}
+const Transpose = {}
 
 /*
 var keyOffset;
@@ -6,7 +6,7 @@ var newNote;
 var numericalNoteValue;
 */
 
-Transpose.transpose = function transpose(note, key) {
+Transpose.transpose = function (note, key) {
   /*
   let keyOffset = KeyOffset(key);
   let noteNumber = convertNoteToNumber(note);
@@ -32,7 +32,7 @@ return newNote;
 
 }
 
-Transpose.setKeyOffset = function setKeyOffset(key) {
+Transpose.setKeyOffset = function (key) {
   switch (key) {
     case 'A':
       keyOffset = 8
@@ -77,7 +77,7 @@ Transpose.setKeyOffset = function setKeyOffset(key) {
   return keyOffset;
 }
 
-Transpose.convertNoteToNumber = function convertNoteToNumber(note) {
+Transpose.convertNoteToNumber = function (note) {
   switch (note) {
     case 'A':
       numericalNoteValue = -3
@@ -122,7 +122,7 @@ Transpose.convertNoteToNumber = function convertNoteToNumber(note) {
   return numericalNoteValue;
 }
 
-Transpose.convertNumberToNote = function convertNumberToNote(number) {
-// TODO: add this function
+Transpose.convertNumberToNote = function (number) {
+  // TODO: add this function
 }
 module.exports = Transpose;
